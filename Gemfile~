@@ -28,7 +28,15 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
-gem 'capistrano-rails', group: :development
+group :development do
+  gem "capistrano"
+  # for gem install at remote server
+  gem "capistrano-rails"
+  gem "capistrano-bundler"
+  gem "capistrano3-puma"
+end
+
+#gem 'capistrano-rails', group: :development
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

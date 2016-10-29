@@ -35,8 +35,9 @@ set :scm, :git
 # Default value for keep_releases is 5
 set :keep_releases, 5
 
-set :rails_env, {
+set :default_env, {
   rbenv_root: "~/.rbenv",
-  path: "~/.rbenv/shims:~/rbenv/bin:$PATH"
+  path: "~/.rbenv/shims:~/.rbenv/bin:$PATH"
 }
 
+set :tmp_dir, "#{fetch(:home)}/tmp"
