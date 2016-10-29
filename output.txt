@@ -1,0 +1,355 @@
+./vendor/bundle/ruby/2.3.0/gems/rake-11.2.2/lib/rake/application.rb:        result = unix? ? dynamic_width : 80
+./vendor/bundle/ruby/2.3.0/gems/rake-11.2.2/lib/rake/application.rb:    def unix? # :nodoc:
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector/debug_inspector.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/ext/debug_inspector/debug_inspector.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.2/lib/debug_inspector.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver/websocket_mask.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver/websocket_mask.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/lib/websocket_mask.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.11/ext/sqlite3/sqlite3.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.11/ext/sqlite3/statement.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.11/ext/sqlite3/backup.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.11/ext/sqlite3/exception.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.11/ext/sqlite3/sqlite3_native.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.11/ext/sqlite3/database.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/sqlite3_native.so に一致しました
+./vendor/bundle/ruby/2.3.0/gems/rack-2.0.1/HISTORY.md:  - Rack::Request#trusted_proxy? now returns true for local unix sockets
+./vendor/bundle/ruby/2.3.0/gems/rack-2.0.1/test/spec_request.rb:      'REMOTE_ADDR' => 'unix',
+./vendor/bundle/ruby/2.3.0/gems/rack-2.0.1/test/spec_request.rb:      'REMOTE_ADDR' => 'unix:/tmp/foo',
+./vendor/bundle/ruby/2.3.0/gems/rack-2.0.1/test/spec_request.rb:    req.trusted_proxy?('unix').must_equal 0
+./vendor/bundle/ruby/2.3.0/gems/rack-2.0.1/test/spec_request.rb:    req.trusted_proxy?('unix:/tmp/sock').must_equal 0
+./vendor/bundle/ruby/2.3.0/gems/rack-2.0.1/test/spec_request.rb:    req.trusted_proxy?("unix.example.org").must_equal nil
+./vendor/bundle/ruby/2.3.0/gems/rack-2.0.1/README.rdoc:* unixrack
+./vendor/bundle/ruby/2.3.0/gems/rack-2.0.1/lib/rack/request.rb:        ip =~ /\A127\.0\.0\.1\Z|\A(10|172\.(1[6-9]|2[0-9]|30|31)|192\.168)\.|\A::1\Z|\Afd[0-9a-f]{2}:.+|\Alocalhost\Z|\Aunix\Z|\Aunix:/i
+./vendor/bundle/ruby/2.3.0/gems/nio4r-1.2.1/ext/libev/ev_epoll.c: *    seems to share this (rather non-unixy) limitation.
+./vendor/bundle/ruby/2.3.0/gems/nio4r-1.2.1/ext/libev/ev.c:   * the single unix specification, so work around them here.
+./vendor/bundle/ruby/2.3.0/gems/nio4r-1.2.1/ext/libev/ev.c:  /* only select works correctly on that "unix-certified" platform */
+./vendor/bundle/ruby/2.3.0/gems/nio4r-1.2.1/ext/libev/ev_select.c:/* for unix systems */
+./vendor/bundle/ruby/2.3.0/gems/nio4r-1.2.1/ext/libev/ev_select.c:/* for REAL unix systems */
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nio4r-1.2.1/ext/nio4r/nio4r_ext.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nio4r-1.2.1/ext/nio4r/nio4r_ext.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nio4r-1.2.1/ext/nio4r/monitor.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nio4r-1.2.1/ext/nio4r/selector.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nio4r-1.2.1/lib/nio4r_ext.so に一致しました
+./vendor/bundle/ruby/2.3.0/gems/concurrent-ruby-1.0.2/lib/concurrent/utility/processor_counter.rb:      # @see http://www.unix.com/man-page/osx/1/HWPREFS/
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug/breakpoint.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug/locker.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug/byebug.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug/context.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug/threads.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug/byebug.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/byebug-9.0.5/lib/byebug/byebug.so に一致しました
+./vendor/bundle/ruby/2.3.0/gems/mail-2.6.4/lib/mail/network/delivery_methods/exim.rb:  # if you are on a mac or unix box, it is usually in /usr/sbin/exim, this will
+./vendor/bundle/ruby/2.3.0/gems/mail-2.6.4/lib/mail/network/delivery_methods/sendmail.rb:  # if you are on a mac or unix box, it is usually in /usr/sbin/sendmail, this will
+./vendor/bundle/ruby/2.3.0/gems/mail-2.6.4/lib/mail.rb:  require 'mail/encodings/unix_to_unix'
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/test/sass/exec_test.rb:    assert(exec(*%w[scss --sourcemap=none -t expanded --unix-newlines].push(src, dest)))
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/test/sass/exec_test.rb:    assert(exec(*%w[sass-convert -T sass --unix-newlines].push(src, dest)))
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/test/sass/exec_test.rb:    assert(exec(*%w[sass-convert -T sass --in-place --unix-newlines].push(src)))
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/test/sass/exec_test.rb:  def test_scss_t_expanded_no_unix_newlines
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/test/sass/exec_test.rb:  def test_sass_convert_T_sass_no_unix_newlines
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/test/sass/exec_test.rb:  def test_sass_convert_T_sass_in_place_no_unix_newlines
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:      flag = 'wb' if Sass::Util.windows? && options[:unix_newlines]
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:      flag = 'wb' if @options[:unix_newlines] && flag == 'w'
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_convert.rb:      opts.on('--unix-newlines', 'Use Unix-style newlines in written files.',
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_convert.rb:        @options[:unix_newlines] = true if Sass::Util.windows?
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:      opts.on('--unix-newlines', 'Use Unix-style newlines in written files.',
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:        @options[:unix_newlines] = true if Sass::Util.windows?
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:      Sass::Plugin.options[:unix_newlines] = @options[:unix_newlines]
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/vendor/listen/spec/listen/directory_record_spec.rb:              socket_path = File.join(path, "unix_domain_socket")
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/vendor/listen/spec/listen/directory_record_spec.rb:    context 'within a directory containing a unix domain socket file', :unless => windows? do
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/vendor/listen/spec/listen/directory_record_spec.rb:      it 'does not raise an exception when hashing a unix domain socket file' do
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/vendor/listen/spec/listen/directory_record_spec.rb:          UNIXServer.new('unix_domain_socket.sock')
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/vendor/listen/README.md:Just like the unix convention of beginning absolute paths with the
+./vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/vendor/listen/README.md:directory-separator (forward slash `/` in unix) and with no prefix for relative paths,
+./vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/core_ext/date_time/conversions.rb:    seconds_since_unix_epoch.to_f + sec_fraction
+./vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/core_ext/date_time/conversions.rb:    seconds_since_unix_epoch.to_i
+./vendor/bundle/ruby/2.3.0/gems/activesupport-5.0.0.1/lib/active_support/core_ext/date_time/conversions.rb:  def seconds_since_unix_epoch
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/spec/ffi/platform_spec.rb:describe "FFI::Platform.unix?" do
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/spec/ffi/platform_spec.rb:      expect(FFI::Platform.unix?).to be true
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/spec/ffi/platform_spec.rb:      expect(FFI::Platform.unix?).to be false
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/spec/ffi/platform_spec.rb:      expect(FFI::Platform.unix?).to be true
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/MethodHandle.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/StructByReference.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/Variadic.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/DynamicLibrary.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/Call.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/ArrayType.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/MemoryPointer.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi-x86_64-linux/src/x86/.libs/unix64.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi-x86_64-linux/src/x86/.libs/ffi64.o に一致しました
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi-x86_64-linux/src/x86/unix64.lo:# src/x86/unix64.lo - a libtool object file
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi-x86_64-linux/src/x86/unix64.lo:pic_object='.libs/unix64.o'
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi-x86_64-linux/.libs/libffi_convenience.a に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi-x86_64-linux/.libs/libffi.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi-x86_64-linux/.libs/libffi.so.5 に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi-x86_64-linux/.libs/libffi.so.5.0.10 に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/StructByValue.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/FunctionInfo.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/AbstractMemory.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/Struct.o に一致しました
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.am:	src/ia64/ia64_flags.h src/ia64/unix.S src/mips/ffi.c		\
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.am:	src/x86/freebsd.S src/x86/ffi64.c src/x86/unix64.S		\
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.am:nodist_libffi_la_SOURCES += src/ia64/ffi.c src/ia64/unix.S
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.am:nodist_libffi_la_SOURCES += src/x86/ffi64.c src/x86/unix64.S src/x86/ffi.c src/x86/sysv.S
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:   unix.S - Copyright (c) 1998, 2008 Red Hat, Inc.
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:   IA64/unix Foreign Function Interface 
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:/* int ffi_call_unix (struct ia64_args *stack, PTR64 rvalue,
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:        .global	ffi_call_unix
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:        .proc	ffi_call_unix
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:ffi_call_unix:
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:        .endp ffi_call_unix
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:        .global ffi_closure_unix
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:        .proc ffi_closure_unix
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:ffi_closure_unix:
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:	/* Invoke ffi_closure_unix_inner for the hard work.  */
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:	br.call.sptk.many b0 = ffi_closure_unix_inner
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/unix.S:	.endp	ffi_closure_unix
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/ia64_flags.h:   IA64/unix Foreign Function Interface 
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/ffi.c:/* The stack layout given to ffi_call_unix and ffi_closure_unix_inner.  */
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/ffi.c:extern int ffi_call_unix (struct ia64_args *, PTR64, void (*)(void), UINT64);
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/ffi.c:  ffi_call_unix (stack, rvalue, fn, cif->flags);
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/ffi.c:extern void ffi_closure_unix ();
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/ffi.c:    UINT64 code_pointer;	/* Pointer to ffi_closure_unix.  */
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/ffi.c:  fd = (struct ia64_fd *)(void *)ffi_closure_unix;
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/ia64/ffi.c:ffi_closure_unix_inner (ffi_closure *closure, struct ia64_args *stack,
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/darwin64.S:   derived from unix64.S
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/darwin64.S:/* ffi_call_unix64 (void *args, unsigned long bytes, unsigned flags,
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/darwin64.S:	.globl	_ffi_call_unix64
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/darwin64.S:_ffi_call_unix64:
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/darwin64.S:	.globl	_ffi_closure_unix64
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/darwin64.S:_ffi_closure_unix64:
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/darwin64.S:	call	_ffi_closure_unix64_inner
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/darwin64.S:	.globl _ffi_call_unix64.eh
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/darwin64.S:_ffi_call_unix64.eh:
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/darwin64.S:	.globl _ffi_closure_unix64.eh
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/darwin64.S:_ffi_closure_unix64.eh:
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/ffi64.c:extern void ffi_call_unix64 (void *args, unsigned long bytes, unsigned flags,
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/ffi64.c:  ffi_call_unix64 (stack, cif->bytes + sizeof (struct register_args),
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/ffi64.c:extern void ffi_closure_unix64(void);
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/ffi64.c:  *(void * volatile *) &tramp[1] = ffi_closure_unix64;
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/ffi64.c:ffi_closure_unix64_inner(ffi_closure *closure, void *rvalue,
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S:   unix64.S - Copyright (c) 2002  Bo Thorsen <bo@suse.de>
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S:/* ffi_call_unix64 (void *args, unsigned long bytes, unsigned flags,
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S:	.globl	ffi_call_unix64
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S:	.type	ffi_call_unix64,@function
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S:ffi_call_unix64:
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S:	.size    ffi_call_unix64,.-ffi_call_unix64
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S:	.globl ffi_closure_unix64
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S:	.type	ffi_closure_unix64,@function
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S:ffi_closure_unix64:
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S:	call	ffi_closure_unix64_inner@PLT
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S:	.size	ffi_closure_unix64,.-ffi_closure_unix64
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/dlmalloc.c:       This malloc can use unix sbrk or any emulation (invoked using
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/dlmalloc.c:       memory.  On most unix systems, it tends to work best if both
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/dlmalloc.c:       (See http://www.unix.org). Also SVID/XPG, ANSI C, and probably
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/dlmalloc.c:  Otherwise defaults are for unix.
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/dlmalloc.c:  addresses.  This is true of unix sbrk. It does not hurt too much to
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/dlmalloc.c:MMAP_CLEARS               default: 1 on unix
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/dlmalloc.c:  for standard unix mmap using /dev/zero.
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/dlmalloc.c:  The old unix realloc convention of allowing the last-free'd chunk
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/dlmalloc.c:  implementations of unix mmap, or distinguish reserving from
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:@IA64_TRUE@am__append_9 = src/ia64/ffi.c src/ia64/unix.S
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:@X86_64_TRUE@am__append_22 = src/x86/ffi64.c src/x86/unix64.S src/x86/ffi.c src/x86/sysv.S
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:@IA64_TRUE@am__objects_9 = src/ia64/ffi.lo src/ia64/unix.lo
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:@X86_64_TRUE@am__objects_22 = src/x86/ffi64.lo src/x86/unix64.lo \
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:	src/ia64/ia64_flags.h src/ia64/unix.S src/mips/ffi.c		\
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:	src/x86/freebsd.S src/x86/ffi64.c src/x86/unix64.S		\
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:src/ia64/unix.lo: src/ia64/$(am__dirstamp) \
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:src/x86/unix64.lo: src/x86/$(am__dirstamp) \
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:	-rm -f src/ia64/unix.$(OBJEXT)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:	-rm -f src/ia64/unix.lo
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:	-rm -f src/x86/unix64.$(OBJEXT)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:	-rm -f src/x86/unix64.lo
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:@AMDEP_TRUE@@am__include@ @am__quote@src/ia64/$(DEPDIR)/unix.Plo@am__quote@
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/Makefile.in:@AMDEP_TRUE@@am__include@ @am__quote@src/x86/$(DEPDIR)/unix64.Plo@am__quote@
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/m4/libtool.m4:      # Convert to unix form, then to dos form, then back to unix form
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/m4/libtool.m4:      # but this time dos style (no spaces!) so that the unix form looks
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/m4/libtool.m4:      sys_lib_search_path_spec=`cygpath --path --unix "$LIB"`
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/m4/libtool.m4:      sys_lib_search_path_spec=`cygpath --path --unix "$sys_lib_search_path_spec" | $SED -e "s/$PATH_SEPARATOR/ /g"`
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/m4/libtool.m4:sysv5* | sco3.2v5* | sco5v6* | unixware* | OpenUNIX* | sysv4*uw2*)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/m4/libtool.m4:sysv5* | sco3.2v5* | sco5v6* | unixware* | OpenUNIX* | sysv4*uw2*)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/m4/libtool.m4:sysv5* | sco5v6* | unixware* | OpenUNIX*)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/m4/libtool.m4:      sysv5* | unixware* | sco3.2v5* | sco5v6* | OpenUNIX*)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/m4/libtool.m4:    sysv5* | unixware* | sco3.2v5* | sco5v6* | OpenUNIX*)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/m4/libtool.m4:    sysv5* | sco3.2v5* | sco5v6* | unixware* | OpenUNIX*)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/m4/libtool.m4:    sysv4*uw2* | sysv5OpenUNIX* | sysv5UnixWare7.[[01]].[[10]]* | unixware7* | sco3.2v5.0.[[024]]*)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/m4/libtool.m4:    sysv4*uw2* | sysv5OpenUNIX* | sysv5UnixWare7.[[01]].[[10]]* | unixware7* | sco3.2v5.0.[[024]]*)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/ltmain.sh:		# make stdout use "unix" line endings
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/ltmain.sh:  /* execv doesn't actually work on mingw as expected on unix */
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/ltmain.sh:	  *-*-sysv4.2uw2* | *-*-sysv5* | *-*-unixware* | *-*-OpenUNIX*)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/ltmain.sh:		    *-*-unixware7*) add_dir="-L$dir" ;;
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/ltmain.sh:	  *-*-sysv4.2uw2* | *-*-sysv5* | *-*-unixware* | *-*-OpenUNIX*)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/config.guess:    DRS?6000:unix:4.0:6*)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/config.guess:	echo powerpc-harris-powerunix
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/config.guess:#if defined (__arm) && defined (__acorn) && defined (__unix)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/ChangeLog.libffi:	* src/x86/unix64.S: Likewise.
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/ChangeLog.libffi:	* src/ia64/unix.S: Likewise.
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/ChangeLog.libffi:	src/ia64/unix.S, src/java_raw_api.c, src/m32r/ffi.c,
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/ChangeLog.libffi:	src/x86/ffi.c, src/x86/unix64.S, src/x86/darwin64.S,
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/ChangeLog.libffi:          src/x86/unix64.S src/x86/win32.S src/x86/ffitarget.h
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/ChangeLog.libffi:          src/ia64/ffitarget.h src/ia64/ia64_flags.h src/ia64/unix.S
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/testsuite/lib/target-libpath.exp:  # unix.exp doesn't set the environment correctly for all systems.
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/testsuite/lib/target-libpath.exp:  # SHLIB_PATH and LD_LIBRARY_PATH when unix_load sets these variables.
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/config.sub:	3b1 | 7300 | 7300-att | att-7300 | pc7300 | safari | unixpc)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/config.sub:	amigaunix | amix)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/config.sub:	-unixware*)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/aclocal.m4:  sysv5* | sco3.2v5* | sco5v6* | unixware* | OpenUNIX* | sysv4*uw2*)
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/Thread.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/Types.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/ffi.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/Type.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/ffi_c.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/StructLayout.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/DataConverter.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/MappedType.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/Function.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/LongDouble.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/Pointer.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/LastError.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/ClosurePool.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/Platform.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/Buffer.o に一致しました
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/lib/ffi/platform.rb:      # Punt and just assume a sane unix (i.e. anything but AIX)
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/lib/ffi/platform.rb:    # Test if current OS is a unix OS
+./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/lib/ffi/platform.rb:    def self.unix?
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/lib/ffi_c.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/html_sax_parser_context.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_attribute_decl.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_attr.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_encoding_handler.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_sax_parser_context.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_namespace.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_document.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_xpath_context.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_text.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/html_entity_lookup.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/nokogiri.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_element_content.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_reader.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_node.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_element_decl.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/html_sax_push_parser.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_relax_ng.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_schema.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/nokogiri.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_processing_instruction.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_dtd.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_syntax_error.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/html_element_description.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/html_document.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_sax_parser.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_io.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_sax_push_parser.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_node_set.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_document_fragment.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_libxml2_hacks.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_entity_decl.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_cdata.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_entity_reference.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xslt_stylesheet.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/xml_comment.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/lib/nokogiri/nokogiri.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/ext/puma_http11/mini_ssl.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/ext/puma_http11/http11_parser.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/ext/puma_http11/puma_http11.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/ext/puma_http11/io_buffer.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/ext/puma_http11/puma_http11.o に一致しました
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/rack/handler/puma.rb:            c.bind "unix://#{host}"
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:      @unix_paths = []
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:      @unix_paths.each { |i| File.unlink i }
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:              key = [ :unix, Socket.unpack_sockaddr_un(sock.getsockname) ]
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:        when "unix"
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:            io = inherit_unix_listener path, fd
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:          elsif sock = @activated_sockets.delete([ :unix, path ])
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:            io = inherit_unix_listener path, sock
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:            io = add_unix_listener path, umask, mode, backlog
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:        # We have to unlink a unix socket path that's not being used
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:        if uri.scheme == "unix"
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:        # We have to unlink a unix socket path that's not being used
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:        File.unlink key[1] if key[0] == :unix
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:    def add_unix_listener(path, umask=nil, mode=nil, backlog=nil)
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:      @unix_paths << path
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:    def inherit_unix_listener(path, fd)
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/binder.rb:      @unix_paths << path
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/runner.rb:      when "unix"
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/runner.rb:        control.add_unix_listener path, mask
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/dsl.rb:        @options[:control_url] = "unix://#{path}"
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/dsl.rb:    # Bind the server to +url+. tcp:// and unix:// are the only accepted
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/control_cli.rb:                when "unix"
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/puma_http11.so に一致しました
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/cli.rb:          o.on "-b", "--bind URI", "URI to bind to (tcp://, unix://, ssl://)" do |arg|
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/cli.rb:            "Use 'auto' to use temp unix server" do |arg|
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/server.rb:    forward :add_unix_listener, :@binder
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/server.rb:          # Set unix socket addrs to localhost
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/server.rb:        # Set unix socket addrs to localhost
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib/puma/launcher.rb:        next unless uri.scheme == 'unix'
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/docs/signals.md:The [unix signal](http://en.wikipedia.org/wiki/Unix_signal) is a method of sending messages between [processes](http://en.wikipedia.org/wiki/Process_(computing)). When a signal is sent, the operating system interrupts the target process's normal flow of execution. There are standard signals that are used to stop a process but there are also custom signals that can be used for other purposes. This document is an attempt to list all supported signals that Puma will respond to. In general, signals need only be sent to the master process of a cluster.
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/docs/nginx.md:  server unix:///myapp/tmp/puma.sock;
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/README.md:    $ puma -b unix:///var/run/puma.sock
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/README.md:    $ puma -b 'unix:///var/run/puma.sock?umask=0111'
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/History.txt:  * Rename to inherit_ssl_listener like inherit_tcp|unix
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/History.txt:  * Listen to unix socket with provided backlog if any
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/History.txt:  * Treat path-like hosts as unix sockets. Fixes #824
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/History.txt:  * Allow umask for unix:/// style control urls
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/History.txt:  * Add mode as an additional bind option to unix sockets. Fixes #630
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/History.txt:  * Set a default REMOTE_ADDR to avoid using peeraddr on unix sockets. Fixes #583
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/History.txt:  * Use 127.0.0.1 as REMOTE_ADDR of unix client. Fixes #309
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/History.txt:  * Add ability to cleanup stale unix sockets
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/History.txt:   * Make sure that the unix socket has the perms 0777 by default
+./vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/History.txt:   * Add umask param to the unix:// bind to set the umask
+./vendor/bundle/ruby/2.3.0/gems/railties-5.0.0.1/lib/rails/generators/rails/app/templates/config/databases/frontbase.yml:# Instead, provide the password as a unix environment variable when you boot
+./vendor/bundle/ruby/2.3.0/gems/railties-5.0.0.1/lib/rails/generators/rails/app/templates/config/databases/jdbcmysql.yml:# Instead, provide the password as a unix environment variable when you boot
+./vendor/bundle/ruby/2.3.0/gems/railties-5.0.0.1/lib/rails/generators/rails/app/templates/config/databases/jdbc.yml:# Instead, provide the password as a unix environment variable when you boot
+./vendor/bundle/ruby/2.3.0/gems/railties-5.0.0.1/lib/rails/generators/rails/app/templates/config/databases/ibm_db.yml:# Instead, provide the password as a unix environment variable when you boot
+./vendor/bundle/ruby/2.3.0/gems/railties-5.0.0.1/lib/rails/generators/rails/app/templates/config/databases/jdbcpostgresql.yml:# Instead, provide the password as a unix environment variable when you boot
+./vendor/bundle/ruby/2.3.0/gems/railties-5.0.0.1/lib/rails/generators/rails/app/templates/config/databases/postgresql.yml:# Instead, provide the password as a unix environment variable when you boot
+./vendor/bundle/ruby/2.3.0/gems/railties-5.0.0.1/lib/rails/generators/rails/app/templates/config/databases/mysql.yml:# Instead, provide the password as a unix environment variable when you boot
+./vendor/bundle/ruby/2.3.0/gems/railties-5.0.0.1/lib/rails/generators/rails/app/templates/config/databases/sqlserver.yml:# Instead, provide the password as a unix environment variable when you boot
+./vendor/bundle/ruby/2.3.0/gems/railties-5.0.0.1/lib/rails/generators/rails/app/templates/config/databases/oracle.yml:# Instead, provide the password as a unix environment variable when you boot
+./vendor/bundle/ruby/2.3.0/gems/thor-0.19.1/lib/thor/shell/basic.rb:          result = unix? ? dynamic_width : 80
+./vendor/bundle/ruby/2.3.0/gems/thor-0.19.1/lib/thor/shell/basic.rb:      def unix?
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/invocation.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/gc.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/function.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/date.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/v8.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/stack.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/rr.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/string.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/value.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/message.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/object.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/locker.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/array.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/exception.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/primitive.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/heap.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/accessor.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/trycatch.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/constraints.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/init.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/script.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/template.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/handles.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/context.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/signature.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/backref.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/external.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/constants.o に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/ext/v8/init.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/gems/therubyracer-0.12.2/lib/v8/init.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/debug_inspector-0.0.2/debug_inspector.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/websocket-driver-0.6.4/websocket_mask.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/sqlite3-1.3.11/sqlite3/sqlite3_native.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/nio4r-1.2.1/nio4r_ext.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/byebug-9.0.5/byebug/byebug.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/ffi-1.9.14/ffi_c.so に一致しました
+./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/ffi-1.9.14/gem_make.out:/bin/sh ./libtool   --mode=compile gcc -DHAVE_CONFIG_H -I. -I/home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi  -I. -I/home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/include -Iinclude -I/home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src  -I. -I/home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/include -Iinclude -I/home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src  -c -o src/x86/unix64.lo /home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S
+./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/ffi-1.9.14/gem_make.out:libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi -I. -I/home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/include -Iinclude -I/home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src -I. -I/home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/include -Iinclude -I/home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src -c /home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/unix64.S  -fPIC -DPIC -o src/x86/.libs/unix64.o
+./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/ffi-1.9.14/gem_make.out:/bin/sh ./libtool --tag=CC   --mode=link gcc -g  -Wall -fexceptions -version-info `grep -v '^#' /home/rails/sample/vendor/bundle/ruby/2.3.0/gems/ffi-1.9.14/ext/ffi_c/libffi/libtool-version`    -o libffi.la -rpath /usr/local/lib src/debug.lo src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo                      src/x86/ffi64.lo src/x86/unix64.lo src/x86/ffi.lo src/x86/sysv.lo      
+./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/ffi-1.9.14/gem_make.out:libtool: link: gcc -shared  -fPIC -DPIC  src/.libs/debug.o src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi64.o src/x86/.libs/unix64.o src/x86/.libs/ffi.o src/x86/.libs/sysv.o      -Wl,-soname -Wl,libffi.so.5 -o .libs/libffi.so.5.0.10
+./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/ffi-1.9.14/gem_make.out:/bin/sh ./libtool --tag=CC   --mode=link gcc -g  -Wall -fexceptions   -o libffi_convenience.la  src/debug.lo src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo                      src/x86/ffi64.lo src/x86/unix64.lo src/x86/ffi.lo src/x86/sysv.lo      
+./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/ffi-1.9.14/gem_make.out:libtool: link: ar cru .libs/libffi_convenience.a src/.libs/debug.o src/.libs/prep_cif.o src/.libs/types.o src/.libs/raw_api.o src/.libs/java_raw_api.o src/.libs/closures.o src/x86/.libs/ffi64.o src/x86/.libs/unix64.o src/x86/.libs/ffi.o src/x86/.libs/sysv.o 
+バイナリファイル ./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/nokogiri-1.6.8/nokogiri/nokogiri.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/puma-3.6.0/puma/puma_http11.so に一致しました
+バイナリファイル ./vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/therubyracer-0.12.2/v8/init.so に一致しました

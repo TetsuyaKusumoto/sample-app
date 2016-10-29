@@ -1,0 +1,21 @@
+require_relative 'boot'
+
+require 'rails/all'
+
+# Require the gems listed in Gemfile, including any gems
+# you've limited to :test, :development, or :production.
+Bundler.require(*Rails.groups)
+
+module Sample
+  class Application < Rails::Application
+    # Settings in config/environments/* take precedence over those specified here.
+    # Application configuration should go into files in config/initializers
+    # -- all .rb files in that directory are automatically loaded.
+  end
+end
+
+# kusumoto added
+#config.log_level = :info
+#config.logger = ActFluentLoggerRails::Logger.new
+#config.lograge.enabled = true
+#config.lograge.formatter = Lograge::Formatters::Json.new
