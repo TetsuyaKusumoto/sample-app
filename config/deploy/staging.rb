@@ -21,10 +21,11 @@
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
 # role :db,  %w{deploy@example.com}
 
-role :app, %w{ops@vagrant.local}
-role :web, %w{ops@vagrant.local}
-role :db, %w{ops@vagrant.local}
+role :app, %w{vagrnat@vagrant.local}
+role :web, %w{vagrant@vagrant.local}
+role :db, %w{vagrant@vagrant.local}
 
+set :rails_env, :staging
 # Configuration
 # =============
 # You can set any configuration variable like in config/deploy.rb
