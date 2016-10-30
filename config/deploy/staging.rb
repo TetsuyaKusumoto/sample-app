@@ -1,4 +1,4 @@
-set :application, "staging sample-app"
+set :application, "staging_sample-app"
 role :app, %w{vagrnat@vagrant.local}
 role :web, %w{vagrant@vagrant.local}
 role :db, %w{vagrant@vagrant.local}
