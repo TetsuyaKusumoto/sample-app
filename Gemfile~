@@ -30,7 +30,8 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 group :development do
   gem "capistrano"
-  # for gem install at remote server
+  # リモートサーバーでのインストール用
+  gem "capistrano-rbenv"
   gem "capistrano-rails"
   gem "capistrano-bundler"
   gem "capistrano3-puma"
