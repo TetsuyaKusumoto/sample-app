@@ -64,3 +64,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # for fluentd
 gem 'act-fluent-logger-rails'
 gem 'lograge'
+
+# NewRelick
+gem 'newrelic_rpm'
