@@ -62,8 +62,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # for fluentd
-gem 'act-fluent-logger-rails'
-gem 'lograge'
+gem 'act-fluent-logger-rails' # fluent logger
+gem 'lograge' # simplify rails log
+gem 'logstash-event'
 
 # NewRelick
 gem 'newrelic_rpm'

@@ -1,5 +1,8 @@
 # config valid only for current version of Capistrano
 
+# これらの基本設定は、各環境ファイルで上書きされる。
+# 各環境ファイルで書いていないものだけがこの値が使われる。
+
 # 基本設定
 lock '3.6.1'
 set :application, 'sample-app'
@@ -9,8 +12,8 @@ set :stages, %w(production staging)
 set :default_stage, 'staging'
 set :scm, :git
 set :repo_url, 'git@github.com:tetsuyakusumoto/sample-app.git'
-set :user, 'vagrant'
-set :use_sudo, false
+set :user, 'deploy'
+set :use_sudo, true
 # ssh
 set :ssh_options, {
   user: fetch(:user),
@@ -20,9 +23,10 @@ set :ssh_options, {
   forward_agent: true
 }
 
+# サーバでの環境変数の設定
 set :default_env, {
-  rbenv_root: "~/.rbenv",
-  path: "~/.rbenv/shims:~/.rbenv/bin:$PATH"
+  rbenv_root: "/usr/local/rbenv",
+  path: "/usr/local/rbenv/shims:/usr/local/rbenv/bin:$PATH"
 }
 
 set :rbenv_ruby, '2.2.2'
