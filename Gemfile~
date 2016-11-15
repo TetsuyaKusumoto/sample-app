@@ -46,6 +46,10 @@ gem 'cancancan'
 gem 'dotenv-rails'
 
 # 非同期処理
+gem 'sidekiq'
+gem 'sidekiq-unique-jobs'
+gem 'sidekiq-failures'
+gem 'sinatra', require: nil # For sidekiq Web UI
 
 # 開発
 group :development do
