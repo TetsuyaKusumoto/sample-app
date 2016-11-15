@@ -17,6 +17,7 @@ gem 'slim-rails'
 
 # Style
 gem 'bootstrap-sass'
+gem 'font-awesome-rails'
 
 # Web
 group :development, :test do

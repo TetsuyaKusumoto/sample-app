@@ -36,6 +36,17 @@ group :staging, :production do
   gem 'pg'
 end
 
+# 認証・認可
+gem 'devise'
+gem 'devise_invitable'
+gem 'devise-bootstrap-views'
+gem 'cancancan'
+
+# env
+gem 'dotenv-rails'
+
+# 非同期処理
+
 # 開発
 group :development do
 
