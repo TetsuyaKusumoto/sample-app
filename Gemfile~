@@ -53,6 +53,8 @@ gem 'sinatra', require: nil # For sidekiq Web UI
 
 # 開発
 group :development do
+  gem 'letter_opener' #ブラウザでメール確認
+  gem 'xray-rails' #ブラウザ上の表示にどのビューが表示されているか
 
 end
 # テストコード
@@ -61,6 +63,8 @@ group :test do
   gem "rspec-rails"
   gem 'factory_girl_rails'
   gem 'database_cleaner'
+  gem 'faker'
+  gem 'timecop'
 end
 
 # デバッグ
@@ -75,7 +79,14 @@ group :development, :test do
   gem 'annotate' #スキーマ情報を付加
 end
 
-＃ ログ
+# コードチェック
+group :development, :test do
+  gem 'rubocop', '0.35.1', require: false
+  gem 'onkcop'
+end
+
+
+# ログ
 group :production, :staging, :development
   gem 'lograge' # simplify rails log
   gem 'logstash-event'
