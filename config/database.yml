@@ -21,8 +21,14 @@ test:
   database: db/test.sqlite3
 
 staging:
-  <<: *default
-  database: db/staging.sqlite3
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  # 以下の3つを追加
+  username: sample-app
+  password: jkljaAreelkr
+  # RailsサーバとPostgreSQLサーバが同じ場合
+  host: localhost
 
 production:
   <<: *default
