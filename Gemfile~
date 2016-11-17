@@ -74,7 +74,7 @@ group :development, :test do
   gem 'pry-byebug' # pryを使ったデバッグを実施(Ruby 2.0以降で動作する) next
   gem 'pry-stack_explorer' # スタックをたどれる
   gem 'awesome_print' # コンソロールきれいに
-  gem 'bullet'　# N+1を指摘
+  gem 'bullet' # N+1を指摘
   gem 'better_errors'
   gem 'annotate' #スキーマ情報を付加
 end
@@ -87,7 +87,7 @@ end
 
 
 # ログ
-group :production, :staging, :development
+group :production, :staging, :development do
   gem 'lograge' # simplify rails log
   gem 'logstash-event'
 end
@@ -103,5 +103,7 @@ group :development do
   gem "capistrano-rails"
   gem "capistrano-bundler"
   gem "capistrano3-puma"
+  gem 'capistrano-ssh-doctor'
+  gem "serverspec"
 end
 

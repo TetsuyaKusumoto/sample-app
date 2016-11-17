@@ -17,7 +17,7 @@ set :use_sudo, true
 # ssh
 set :ssh_options, {
   user: fetch(:user),
-  keys: %w(~/.ssh/id_rsa),
+  keys: %w(~/.ssh/login.pem),
   auth_methods: %w(publickey),
   # .ssh/configの設定ファイルを使用できるようにする。これを設定することで`Host hoge`の部分で接続できることができる。
   forward_agent: true
@@ -29,6 +29,7 @@ set :default_env, {
   path: "/usr/local/rbenv/shims:/usr/local/rbenv/bin:$PATH"
 }
 
+set :rbenv_custom_path, "/usr/local/rbenv"
 set :rbenv_ruby, '2.2.2'
 set :tmp_dir, "#{fetch(:home)}/tmp"
 
@@ -57,11 +58,6 @@ set :puma_default_hooks, false
 # puma を capistrano で利用するための設定
 set :puma_preload_app, false
 set :prune_bundler, true
-
-
-
-
-
 
 
 
